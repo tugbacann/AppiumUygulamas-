@@ -1,0 +1,64 @@
+Created by testinium on 31.01.2022
+
+This is a concept file with following syntax for each concept.
+# Alışverişe Başla butonuna tıkla
+* id "com.ozdilek.ozdilekteyim:id/tv_startShoppingStore" li elemente tıkla
+* "3" saniye kadar bekle
+
+# Uygulamanın açıldığını <text> ile kontrol et
+* id "com.ozdilek.ozdilekteyim:id/textView" li elementi bul ve <text> ile kontrol et
+* "3" saniye kadar bekle
+
+# Kategoriler sayfasını aç
+* id "com.ozdilek.ozdilekteyim:id/nav_categories" li elemente tıkla
+* "3" saniye kadar bekle
+
+# Kategoriler sayfasının açıldığını <text> ile kontrol et
+* xpath "//android.widget.LinearLayout[@content-desc='Kategoriler']/android.widget.TextView" li elementi bul ve <text> ile kontrol et
+* "3" saniye kadar bekle
+
+# Menüden kadın seçeneğine tıkla
+* xpath "//*[@resource-id='com.ozdilek.ozdilekteyim:id/relLayCategoriesItem'][2]" li elemente tıkla
+* "3" saniye kadar bekle
+
+# Pantolon kategorisini aç
+* xpath "//*[@resource-id='com.ozdilek.ozdilekteyim:id/relLayCategoriesItem'][14]" li elemente tıkla
+* "3" saniye kadar bekle
+
+# Sayfayı yukarı kaydırma
+* Sayfayı yukarı kaydır
+* "3" saniye kadar bekle
+
+# Ürün detay sayfasının açıldığını kontrol et
+* id "com.ozdilek.ozdilekteyim:id/relLaySizeView" li elementi bul ve "Beden Tablosu" ile kontrol et
+* "3" saniye kadar bekle
+
+# Favoriler butonuna tıkla
+* "3" saniye kadar bekle
+* id "com.ozdilek.ozdilekteyim:id/relLayFav" li elemente tıkla
+* "3" saniye kadar bekle
+
+# Giriş yap sayfasının doğruluğunu kontrol et
+* id "com.ozdilek.ozdilekteyim:id/btnLogin" li elementi bul ve "Giriş Yap" ile kontrol et
+* "3" saniye kadar bekle
+
+# E-posta alanını doldur
+* id "com.ozdilek.ozdilekteyim:id/etEposta" li elementi bul ve "tugbacan1717@gmail.com" değerini yaz
+* "3" saniye kadar bekle
+
+# Parola alanını doldur
+* id "com.ozdilek.ozdilekteyim:id/etPassword" li elementi bul ve "1q2w3e4r5t" değerini yaz
+* "3" saniye kadar bekle
+
+# Geri butonuna tıkla
+* id "com.ozdilek.ozdilekteyim:id/ivBack" li elemente tıkla
+* "3" saniye kadar bekle
+
+# Ürün için rastgele bir beden seç
+* "3" saniye kadar bekle
+* Ürün için "//*[@resource-id='com.ozdilek.ozdilekteyim:id/tvInSizeItem']" rastgele bir beden seç ve tıkla
+* "3" saniye kadar bekle
+
+# Sepete ekle butonuna tıkla
+* id "com.ozdilek.ozdilekteyim:id/cardAddToCart" li elemente tıkla
+* "3" saniye kadar bekle
